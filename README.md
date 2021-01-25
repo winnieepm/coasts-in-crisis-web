@@ -1,4 +1,1 @@
-# hello-world
-just a test to see how dumb i am
-
-still dumb, maybe dumber. fingers too cold to type, oops.
+A backup copy of all files that compose the digital edition of the event "Coasts in Crisis", sponsored by the Spanish, Italian, and Portuguese Department of UVA in 2019. Specifically, these files correspond to the Drupal 8 version of the website.
