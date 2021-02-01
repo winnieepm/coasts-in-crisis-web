@@ -1,0 +1,360 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202006 will be lost/reset.
+# Last config file used to build this data file was /home/rebecc25/tmp/awstats/ssl/awstats.rebeccaelisefoote.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2696                
+POS_VISITOR 6883                
+POS_DAY 8448                
+POS_DOMAIN 3279                
+POS_LOGIN 3561                
+POS_ROBOT 3716                
+POS_WORMS 3918                
+POS_EMAILSENDER 4049                
+POS_EMAILRECEIVER 4192                
+POS_SESSION 9034                
+POS_SIDER 9214                
+POS_FILETYPES 4327                
+POS_DOWNLOADS 4560                
+POS_OS 4608                
+POS_BROWSER 4731                
+POS_SCREENSIZE 5045                
+POS_UNKNOWNREFERER 5119                
+POS_UNKNOWNREFERERBROWSER 5325                
+POS_ORIGIN 5441                
+POS_SEREFERRALS 5578                
+POS_PAGEREFS 5722                
+POS_SEARCHWORDS 6199                
+POS_KEYWORDS 6351                
+POS_MISC 2360                
+POS_ERRORS 6410                
+POS_CLUSTER 3417                
+POS_SIDER_404 6541                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200701030825 5 779 10623710640174
+FirstTime 20200601013348
+LastTime 20200630155247
+LastUpdate 20200701130320 5 0 4 0 0
+TotalVisits 43                  
+TotalUnique 38                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 39                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+AddToFavourites 0 3 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 20 1073664 3 4 10119
+1 15 16 240795 0 0 0
+2 4 4 31887 0 0 0
+3 0 0 0 1 1 0
+4 2 2 12524 1 1 35
+5 1 1 0 1 2 9247
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 1 1 41206 0 0 0
+9 2 2 25345 0 0 0
+10 1 1 12965 0 0 0
+11 0 0 0 0 1 41229
+12 0 0 0 0 0 0
+13 2 2 25064 0 0 0
+14 0 0 0 0 0 0
+15 1 1 12524 0 0 0
+16 0 0 0 1 1 35
+17 0 0 0 0 0 0
+18 5 10 2962289 0 1 1150
+19 4 4 103374 0 0 0
+20 0 0 0 0 0 0
+21 19 63 4308805 4 4 665
+22 78 255 4431078 18 18 8496
+23 13 43 12638056 0 1 1150
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 137 385 25508845
+cn 14 34 319163
+de 3 3 0
+gb 2 2 50362
+nl 1 1 41206
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+Googlebot/ 2 3188 20200616004637 2
+no_user_agent 1 0 20200602030444 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+woff 6 136000 0 0
+svg 18 22738 0 0
+php 12 97268 0 0
+png 24 206166 0 0
+css 111 401214 0 0
+jpg 5 16991503 0 0
+Unknown 97 3905092 0 0
+js 110 3598221 0 0
+html 42 561374 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+linux 6 5
+Unknown 7 7
+win7 3 3
+win10 49 29
+macosx 360 113
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+chrome58.0.3029.110 2 1
+chrome40.0.2214.85 3 3
+chrome72.0.3626.121 1 1
+mozilla 4 4
+chrome80.0.3987.149 348 106
+chrome72.0.3626.119 33 13
+chrome66.0.3359.181 14 14
+chrome83.0.4103.97 3 3
+firefox77.0 10 5
+chrome74.0.3729.169 2 2
+Unknown 3 3
+chrome76.0.3809.132 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Go-http-client/1.1 20200610010959
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20200605212437
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20200610010959
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 38 39
+From1 0 0
+From2 0 0
+From3 9 29
+From4 110 357
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://webmail.rebeccaelisefoote.com/cPanel_magic_revision_1386192030/unprotected/cpanel/fonts/open_sans/open_sans.min.css 6 6
+http://webmail.rebeccaelisefoote.com 3 3
+https://webmail.rebeccaelisefoote.com/cPanel_magic_revision_1591652143/unprotected/cpanel/style_v2_optimized.css 0 14
+https://webmail.rebeccaelisefoote.com 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 8 4072
+401 3 105
+404 2 15306
+308 2 190
+303 13 5736
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/.well-known/assetlinks.json 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 39
+99.106.116.129 106 348 22228069 20200606003145
+36.99.136.139 5 15 133785 20200620215434
+104.229.26.53 5 10 2962289 20200618184211
+36.99.136.131 4 14 121130 20200620215356
+138.246.253.15 3 3 0 20200617023756
+54.162.160.104 2 2 25064 20200630132044
+54.245.136.76 1 1 9753 20200605014354
+52.10.6.218 1 1 9753 20200614012144
+167.172.30.215 1 1 40593 20200605194548
+159.203.79.91 1 1 40605 20200605190741
+34.209.139.83 1 1 9753 20200604011809
+34.216.157.31 1 1 9753 20200616021121
+54.80.68.173 1 1 12403 20200627193318
+54.185.222.191 1 1 12387 20200629094109
+54.185.176.58 1 1 9753 20200601013348
+34.221.45.219 1 1 9753 20200610010959
+34.210.61.111 1 1 12381 20200624012449
+34.219.122.80 1 1 12524 20200630155247
+34.221.90.12 1 1 12381 20200620012338
+111.7.100.21 1 1 13017 20200620222219
+34.222.93.45 1 1 9753 20200612015045
+34.221.87.6 1 1 9753 20200608011045
+36.99.136.130 1 1 12618 20200620215354
+35.166.114.225 1 1 12524 20200630045243
+34.209.235.245 1 1 12381 20200623023924
+34.222.21.58 1 1 9753 20200615012643
+54.244.49.68 1 1 9753 20200607021538
+47.101.167.1 1 1 12958 20200619090609
+167.172.19.99 1 1 9769 20200605212437
+52.43.174.65 1 1 12381 20200619013741
+8.209.79.179 1 1 12965 20200619100456
+80.82.68.72 1 1 41206 20200626085646
+54.209.250.68 0 1 1295 
+209.97.153.174 1 1 9773 20200605195223
+111.7.100.23 1 1 13024 20200620222223
+34.209.124.125 1 1 9753 20200609014448
+52.36.142.11 1 1 9753 20200613011551
+36.99.136.143 1 1 12631 20200620215401
+35.166.4.39 1 1 12387 20200627011608
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20200601 1 1 9753 1
+20200602 9 16 692698 2
+20200603 83 283 8422614 1
+20200604 1 1 9753 1
+20200605 18 48 12748549 6
+20200606 2 7 474701 1
+20200607 1 1 9753 1
+20200608 1 1 9753 1
+20200609 1 1 9753 1
+20200610 1 1 9753 1
+20200612 1 1 9753 1
+20200613 2 2 9753 2
+20200614 1 1 9753 1
+20200615 1 1 9753 1
+20200616 1 1 9753 1
+20200617 1 1 0 1
+20200618 5 10 2962289 1
+20200619 3 3 38304 3
+20200620 14 34 318586 7
+20200623 1 1 12381 1
+20200624 1 1 12381 1
+20200626 1 1 41206 1
+20200627 2 3 26085 2
+20200629 1 1 12387 1
+20200630 4 4 50112 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30mn-1h 1
+15mn-30mn 1
+5mn-15mn 2
+0s-30s 39
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 29
+/ 42 561374 39 37
+/batch 28 85507 0 0
+/quickedit/attachments 14 47664 0 1
+/admin/modules 12 2753621 1 0
+/core/authorize.php 8 96968 0 0
+/history/7/read 6 60 0 1
+/home 5 158555 0 0
+/core/authorize.php/core/authorize.php 4 300 0 0
+/admin/modules/install 4 106314 0 0
+/admin/people/roles 3 73119 0 0
+/admin/people/create 3 145164 0 0
+/admin/config/development/maintenance 3 58457 0 0
+/admin/people 3 101736 2 0
+/cPanel_magic_revision_1386192033/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 2 45320 0 0
+/ecology 2 16214 0 1
+/cPanel_magic_revision_1386192033/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 2 45816 0 1
+/cPanel_magic_revision_1386192031/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 2 44864 0 0
+/history/19/read 2 20 0 0
+/admin/config 2 40540 0 1
+/admin/content 1 77721 1 0
+/contextual/render 1 567 0 0
+/precarity 1 8106 0 0
+/admin/reports/updates 1 42204 0 1
+/foretelling 1 37520 0 0
+/admin/appearance 1 42695 0 0
+/node/19/edit 1 84480 0 0
+/admin/people/roles/add 1 16271 0 0
+/about 1 8261 0 0
+/quickedit/metadata 1 296 0 0
+END_SIDER
