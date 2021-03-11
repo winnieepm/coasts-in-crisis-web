@@ -1,0 +1,522 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202006 will be lost/reset.
+# Last config file used to build this data file was /home/rebecc25/tmp/awstats/awstats.rebeccaelisefoote.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2697                
+POS_VISITOR 7595                
+POS_DAY 10018               
+POS_DOMAIN 3424                
+POS_LOGIN 3745                
+POS_ROBOT 3900                
+POS_WORMS 4179                
+POS_EMAILSENDER 4310                
+POS_EMAILRECEIVER 4453                
+POS_SESSION 10744               
+POS_SIDER 10950               
+POS_FILETYPES 4588                
+POS_DOWNLOADS 4842                
+POS_OS 4918                
+POS_BROWSER 5131                
+POS_SCREENSIZE 5744                
+POS_UNKNOWNREFERER 5818                
+POS_UNKNOWNREFERERBROWSER 6111                
+POS_ORIGIN 6269                
+POS_SEREFERRALS 6406                
+POS_PAGEREFS 6569                
+POS_SEARCHWORDS 6747                
+POS_KEYWORDS 6899                
+POS_MISC 2360                
+POS_ERRORS 6958                
+POS_CLUSTER 3601                
+POS_SIDER_404 7117                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200701030824 20 3874 10623693600814
+FirstTime 20200601015800
+LastTime 20200630190102
+LastUpdate 20200701130319 20 0 19 0 0
+TotalVisits 76                  
+TotalUnique 60                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 60                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 17 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 131 436 10364873 30 35 52001
+1 166 306 6835021 19 19 18158
+2 95 181 9769118 5 6 3652
+3 0 0 0 1 4 51091
+4 16 16 175499 2 3 8650
+5 0 0 0 5 7 53237
+6 3 4 33846 1 6 51599
+7 1 1 12377 2 3 11679
+8 3 3 31891 2 3 19310
+9 2 2 24760 5 7 41551
+10 0 0 0 5 11 89894
+11 10 11 93292 4 5 39439
+12 1 1 12377 3 4 26423
+13 10 10 195124 6 6 42206
+14 2 2 19498 2 2 16569
+15 1 1 12520 2 2 17073
+16 1 1 9749 2 3 21168
+17 2 2 19498 3 4 30261
+18 18 31 10830063 1 2 9186
+19 115 159 9765088 12 17 82647
+20 17 20 3073025 3 14 39672
+21 168 451 27057468 23 29 393735
+22 210 270 11665354 28 30 2927467
+23 15 20 2976536 7 8 48091
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 969 1910 92779189
+hu 8 8 85867
+gb 3 3 37286
+it 2 2 20634
+se 2 2 22126
+fr 1 1 9749
+ca 1 1 12377
+in 1 1 9749
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+bingbot/ 59 3230164 20200630170250 15
+Googlebot/ 21 248992 20200626222259 4
+no_user_agent 4 41624 20200626092520 0
+unknown 3 4782 20200624064318 3
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+js 339 13457348 0 0
+html 84 1333331 0 0
+png 53 3449711 0 0
+jpg 23 43782957 0 0
+Unknown 879 29145920 0 0
+txt 1 395 0 0
+svg 106 75844 0 0
+gif 3 4662 0 0
+php 24 152072 0 0
+css 416 1574737 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/core/CHANGELOG.txt 1 0 395
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+Unknown 13 8
+macosx 1785 860
+win10 52 47
+win7 48 48
+linuxandroid 1 1
+macosx8 1 1
+win2003 11 10
+macosx12 1 1
+ios_iphone 12 7
+macosx10 1 1
+linux 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 27
+safari11.0 1 1
+chrome74.0.3729.131 3 2
+safari13.0.5 12 7
+chrome81.0.4044.129 5 1
+chrome80.0.3987.132 1 1
+firefox61.0 8 8
+Unknown 7 7
+chrome80.0.3987.149 1735 826
+firefox59.0 1 1
+msie7.0 11 10
+chrome67.0.3396.99 2 2
+chrome83.0.4103.97 2 2
+chrome41.0.2228.0 1 1
+chrome66.0.3359.181 30 30
+firefox77.0 49 33
+safari6.0.5 6 1
+firefox17.0 8 8
+chrome74.0.3729.169 2 2
+chrome80.0.3987.122 1 1
+chrome80.0.3987 1 1
+chrome81.0.4044.122 1 1
+chrome72.0.3626.109 1 1
+chrome26.0.1410.65 1 1
+chrome65.0.3325.52 36 36
+firefox68.0 1 1
+chrome70.0.3538.77 1 1
+chrome83.0.4103.61 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_AppleWebKit/536.30.1_(KHTML,_like_Gecko)_Version/6.0.5_Safari/536.30.1_Installatron_(Mimicking_WebKit) 20200604235233
+Go-http-client/1.1 20200623041803
+Installatron_Plugin/9.1.51 20200617233530
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Installatron_Plugin/9.1.51 20200617233530
+Go-http-client/1.1 20200623041803
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 85 87
+From1 0 0
+From2 1 1
+From3 8 8
+From4 893 1832
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://brandnewblogs.com 8 8
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+500 1 0
+503 1 3847
+404 18 119451
+302 17 8258
+403 2 15492
+303 85 40330
+206 2 349429
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 10
+/node/6 3 -
+/node/2 3 -
+/node/5 3 -
+/oldsite/wp-includes/wlwmanifest.xml 1 -
+/node/3 1 -
+/material 1 -
+/wp/wp-login.php 1 -
+/CHANGELOG.txt 1 -
+/ads.txt 2 -
+/node/4 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 60
+99.106.116.129 826 1735 71949014 20200629225039
+104.229.26.53 33 49 13878312 20200618204649
+138.68.243.154 13 13 37255 20200617233530
+192.227.238.245 12 12 127451 20200630190102
+23.89.247.110 12 12 125705 20200619041217
+23.82.28.162 12 12 125945 20200629211245
+38.111.144.136 10 11 93292 20200605113343
+107.77.80.90 7 12 2979720 20200618210831
+94.21.92.161 4 4 38996 20200611160605
+51.158.169.206 3 3 37286 20200630043701
+92.249.191.134 2 2 24754 20200624045004
+54.218.4.170 2 3 21469 20200624064319
+188.143.1.43 2 2 22117 20200618022720
+54.162.160.104 2 2 25056 20200630132045
+84.17.51.41 2 2 20634 20200623022248
+34.222.93.45 1 1 9749 20200612015044
+52.10.6.218 1 1 9749 20200614012143
+34.219.122.80 1 1 12520 20200630155247
+34.219.14.238 1 1 12377 20200620014056
+35.164.231.65 1 1 12377 20200626010902
+35.166.114.225 1 1 12520 20200630045242
+34.209.139.83 1 1 9749 20200604011803
+34.222.195.223 1 1 12377 20200624011917
+34.209.150.137 1 1 12368 20200618015853
+34.219.140.179 1 1 9749 20200603012812
+172.241.83.205 1 1 12377 20200622124303
+192.71.103.173 1 1 9749 20200616084705
+34.209.235.245 1 1 12377 20200623023923
+34.208.6.136 1 1 9749 20200616023712
+34.222.21.58 1 1 9749 20200615012641
+52.33.38.254 1 1 12189 20200617010310
+54.245.162.96 1 1 9749 20200611012725
+34.208.137.124 1 1 9749 20200602012433
+35.163.144.47 1 1 12377 20200624015819
+54.244.49.68 1 1 9749 20200607021537
+34.221.160.103 1 1 9749 20200606013653
+34.222.134.157 1 1 12377 20200621013107
+52.36.142.11 1 1 9749 20200613011550
+49.12.98.245 1 1 9749 20200605082400
+34.209.124.125 1 1 9749 20200609014447
+35.166.4.39 1 1 12383 20200627011607
+54.149.128.185 1 1 9749 20200605021404
+34.220.132.178 1 1 9749 20200601015800
+54.84.54.67 1 1 12393 20200620081359
+62.210.111.97 1 1 9749 20200604214210
+216.145.17.190 1 1 12205 20200617005907
+34.219.42.181 1 1 12189 20200617010445
+18.237.160.5 1 1 12377 20200625215122
+52.43.174.65 1 1 12377 20200619013740
+54.191.164.50 1 1 12377 20200625095740
+69.162.68.206 1 6 2926898 20200604235232
+34.222.171.26 1 1 9749 20200610011415
+34.219.111.10 1 1 12377 20200625011325
+192.36.53.165 1 1 12377 20200623041803
+34.221.87.6 1 1 9749 20200608011044
+216.68.248.6 1 5 61021 20200606003432
+54.201.85.221 1 1 12377 20200622011725
+52.43.79.159 1 1 12393 20200619203221
+54.185.222.191 1 1 12383 20200629094108
+135.181.30.160 1 1 12377 20200623070255
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20200601 1 1 9749 1
+20200602 1 1 9749 1
+20200603 1 16 216805 1
+20200604 14 19 2978661 4
+20200605 13 14 122539 4
+20200606 15 159 1414670 3
+20200607 3 3 29247 2
+20200608 1 1 9749 1
+20200609 1 1 9749 1
+20200610 1 1 9749 1
+20200611 2 2 19498 2
+20200612 2 2 19498 2
+20200613 1 1 9749 1
+20200614 2 2 12244 2
+20200615 1 1 9749 1
+20200616 2 2 19498 2
+20200617 236 443 13684654 5
+20200618 297 546 47280006 9
+20200619 14 14 150475 3
+20200620 3 3 37147 3
+20200621 1 1 12377 1
+20200622 2 2 24754 2
+20200623 5 5 57765 4
+20200624 5 6 58600 4
+20200625 3 3 37131 3
+20200626 78 315 7782859 2
+20200627 2 2 24766 2
+20200628 1 1 12383 1
+20200629 262 344 18723090 3
+20200630 17 17 190067 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+30mn-1h 2
+2mn-5mn 2
+0s-30s 63
+5mn-15mn 1
+15mn-30mn 1
+30s-2mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 123
+/quickedit/attachments 161 505305 0 2
+/ 84 1333331 63 56
+/history/7/read 63 630 0 2
+/contextual/render 49 29543 0 0
+/home 48 1899705 0 0
+/batch 38 201890 0 0
+/node/7/edit 33 2682297 0 0
+/admin/content 31 2475530 3 0
+/admin/structure/block 26 2389923 0 0
+/admin/modules 22 5511336 1 0
+/admin/config/content/formats 19 775323 0 0
+/node/18 18 646631 1 0
+/history/18/read 16 160 0 1
+/admin/config 15 552221 0 0
+/precarity 13 193316 1 0
+/welcometoparadise 12 251382 0 1
+/quickedit/metadata 11 2566 0 0
+/node/18/edit 11 811968 0 1
+/about 10 82685 1 2
+/admin/structure 10 322840 0 0
+/ecology 10 229184 0 0
+/core/authorize.php 10 122242 0 0
+/admin/reports/updates 8 356772 0 0
+/editor/dialog/image/basic_html 7 49152 0 0
+/history/26/read 7 70 0 0
+/admin/structure/types/manage/v/fields 1 34763 0 0
+/admin/config/development/performance 3 100006 0 0
+/admin/structure/menu/item/15/edit 1 45161 0 0
+/slavetrees 2 18618 0 0
+/history/21/read 1 10 0 0
+/shelter 2 17526 0 0
+/media/add/video 3 119227 0 0
+/update.php/start 4 4668 0 0
+/entity_reference_autocomplete/node/default/a5gDdLiknrOUhqAJK-Udb4ThVxzqgADsh-j_sVznlpo 2 273 0 0
+/admin/structure/menu/parents 1 500 0 0
+/deleteme.cha7p5tb.php 1 2495 0 0
+/update.php 5 19475 0 0
+/admin/structure/block/manage/bootstrap_page_title 1 52359 0 0
+/admin/structure/menu/manage/main 2 139956 0 0
+/foretelling 6 147447 0 0
+/admin/structure/block/manage/languageswitcher 4 210810 0 0
+/node/10/edit 2 136972 0 0
+/node/26 3 111624 0 0
+/admin/structure/types/manage/v/fields/node.v.field_video_/storage 1 40423 0 0
+/admin/structure/types/manage/page/display 4 178928 0 0
+/media/add 2 62926 0 0
+/admin/structure/block/demo/bootstrap 1 31042 0 0
+/admin/modules/uninstall/confirm 1 32533 0 0
+/admin/reports/dblog 1 103527 0 0
+/admin/content/files 6 466920 0 0
+/admin/structure/menu/manage/main/add 2 87168 0 0
+/history/20/read 4 40 0 0
+/user/1 2 71324 1 0
+/admin/config/development/maintenance/translate 1 33436 0 0
+/es 5 59719 0 0
+/admin/reports/status 2 94242 0 0
+/admin/config/media/image-styles/add 2 67055 0 0
+/admin/config/development/backup_migrate/advanced 1 58097 0 0
+/admin/config/development/maintenance 6 224002 0 0
+/admin/structure/block/block-content/types 1 35222 0 0
+/admin/reports/updates/settings 5 200903 0 0
+/node/10/translations 1 33514 0 0
+/history/12/read 1 10 0 0
+/admin/config/media/image-styles/manage/horizontal_/add/image_resize 1 34262 0 0
+/node/7 4 47045 0 0
+/admin/config/development/backup_migrate/settings/destination/backups/private_files 1 33158 0 0
+/admin/structure/menu 5 164897 0 0
+/admin/config/regional/language 1 44018 0 0
+/admin/config/system/cron 2 64082 0 0
+/admin/config/media/image-styles 2 69440 0 0
+/admin/structure/types/manage/spiral/display 1 60117 0 0
+/groundscapesdisplaced 2 18586 0 0
+/admin/config/media/media-settings 1 35042 0 0
+/editor/dialog/media/basic_html 2 0 0 0
+/cone 5 76001 0 0
+/core/authorize.php/core/authorize.php 5 375 0 0
+/admin/structure/types/add 1 55181 0 0
+/admin/config/media/file-system 2 74302 0 0
+/admin/config/content/formats/manage/plain_text/translate 1 33696 0 0
+/admin/config/content/formats/add 2 189343 0 0
+/admin/config/media/image-styles/manage/horizontal_ 3 123052 0 0
+/history/8/read 4 40 0 0
+/admin/structure/types/manage/v/fields/add-field 1 39877 0 0
+/update.php/selection 4 14007 0 0
+/deleteme.cha4s5gr.php 1 2495 1 1
+/deleteme.chasojob.php 1 2495 1 0
+/admin 3 93078 0 1
+/admin/appearance/settings 2 92129 0 0
+/admin/config/content/formats/manage/plain_text 2 210046 0 0
+/admin/config/development/backup_migrate 6 1242044 0 0
+/admin/content/media 5 191040 0 0
+/admin/theme/update 1 36582 0 0
+/admin/reports 3 94641 0 0
+/admin/config/development/backup_migrate/restore 1 36397 0 0
+/node/add/page 1 64869 0 0
+/machine_name/transliterate 5 60 0 0
+/admin/config/development/backup_migrate/schedule 1 34516 0 0
+/deafening 3 59120 0 0
+/admin/modules/uninstall 2 182854 0 0
+/admin/modules/install 3 94868 0 0
+/admin/reports/updates/update 6 218875 0 0
+/update.php/results 2 5912 0 0
+/admin/structure/block/block-content 2 76360 0 0
+/deleteme.chagtuo6.php 1 2495 1 1
+/admin/modules/update 2 73362 0 0
+/user/login 7 69270 2 4
+/admin/config/development/backup_migrate/backups 3 103161 0 0
+/history/10/read 6 60 0 0
+/node/14 1 8365 0 1
+/node/preview/f08901e3-616a-42b5-a739-6c4b3a7f9ec5/full 5 196582 0 0
+/admin/config/content/formats/manage/basic_html 7 942595 0 0
+/media/basic_html/preview 1 189 0 0
+/es/node/10 1 8373 0 0
+/admin/structure/types 3 102685 0 0
+/node/26/edit 4 269545 0 1
+/admin/update/ready 3 93045 0 0
+/node/add 1 31291 0 0
+/history/19/read 2 20 0 0
+/admin/config/system 1 28683 0 0
+/participate 7 58421 0 2
+/admin/appearance 4 179734 0 0
+/admin/config/media 1 30867 0 0
+/abandonment 2 48755 0 0
+END_SIDER

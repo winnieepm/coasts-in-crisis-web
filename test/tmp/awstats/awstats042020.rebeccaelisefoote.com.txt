@@ -1,0 +1,568 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202004 will be lost/reset.
+# Last config file used to build this data file was /home/rebecc25/tmp/awstats/awstats.rebeccaelisefoote.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2018                
+POS_TIME 2692                
+POS_VISITOR 8204                
+POS_DAY 10822               
+POS_DOMAIN 3416                
+POS_LOGIN 3767                
+POS_ROBOT 3922                
+POS_WORMS 4309                
+POS_EMAILSENDER 4440                
+POS_EMAILRECEIVER 4583                
+POS_SESSION 11536               
+POS_SIDER 11709               
+POS_FILETYPES 4718                
+POS_DOWNLOADS 4969                
+POS_OS 5038                
+POS_BROWSER 5241                
+POS_SCREENSIZE 5794                
+POS_UNKNOWNREFERER 5868                
+POS_UNKNOWNREFERERBROWSER 6355                
+POS_ORIGIN 6707                
+POS_SEREFERRALS 6845                
+POS_PAGEREFS 7008                
+POS_SEARCHWORDS 7279                
+POS_KEYWORDS 7431                
+POS_MISC 2356                
+POS_ERRORS 7490                
+POS_CLUSTER 3623                
+POS_SIDER_404 7627                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200501012111 3 360 10344575281635
+FirstTime 20200401005933
+LastTime 20200430135402
+LastUpdate 20200501125603 3 0 2 0 0
+TotalVisits 69                  
+TotalUnique 64                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 65                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 2 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 120 158 19786173 16 22 265816
+1 120 132 4477462 44 45 168583
+2 16 21 404497 1 1 13326
+3 10 10 113733 3 4 14061
+4 0 0 0 2 4 27344
+5 2 2 24806 1 3 3524
+6 0 3 49270 7 8 56287
+7 3 3 23321 3 8 36199
+8 0 0 0 0 0 0
+9 0 0 0 2 3 24815
+10 2 2 26565 2 3 21486
+11 6 6 79201 2 2 720
+12 3 3 38111 4 5 23984
+13 3 3 47931 4 4 46535
+14 388 411 29292670 29 29 40138
+15 302 312 5869071 26 32 4393733
+16 65 68 2065796 10 10 17917
+17 30 37 4597826 5 5 29985
+18 1 1 13275 4 4 43113
+19 222 373 24180017 17 19 25243
+20 38 40 245268 4 8 29002
+21 2 2 26550 1 2 13021
+22 56 67 1449882 8 9 14046
+23 45 52 2012912 3 9 66104
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+us 1420 1692 94655428
+se 4 4 50092
+cn 2 2 11507
+sc 2 2 29047
+kz 1 1 13287
+zz 1 1 11771
+gb 1 1 13290
+tr 1 1 13275
+ca 1 1 11771
+ua 1 1 13275
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+bingbot/ 31 210535 20200430172608 12
+Googlebot/ 16 156558 20200425095940 4
+no_user_agent 13 146918 20200428012313 0
+msnbot/ 7 2312 20200422153012 0
+unknown 5 7970 20200428055724 5
+curl 1 11771 20200405125309 0
+Googlebot\-Image/ 1 4289797 20200401155700 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+svg 60 41005 0 0
+css 51 353534 0 0
+body 1 36919 0 0
+php 3 8359 0 0
+js 72 4327513 0 0
+Unknown 1341 21269170 0 0
+gif 2 3387 0 0
+html 89 1352624 0 0
+jpg 27 34654466 0 0
+png 60 32774172 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 0 1 1594
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+linux 6 1
+macosx 1596 1338
+win7 20 20
+win10 42 42
+win8.1 5 2
+win2003 11 10
+Unknown 22 16
+macosx8 1 1
+winxp 1 1
+macosx10 2 2
+macosx12 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 25
+chrome80.0.3987.149 1595 1337
+Unknown 16 15
+firefox47.0 1 1
+chrome79.0.3945.130 11 11
+firefox17.0 6 6
+chrome65.0.3325.52 9 9
+firefox55.0 1 1
+firefox59.0 2 2
+chrome7.0.540.0 1 1
+chrome80.0.3987.122 1 1
+chrome58.0.3029.110 1 1
+firefox57.0 1 1
+safari6.0.5 6 1
+chrome72.0.3626.121 1 1
+chrome76.0.3809.132 1 1
+chrome66.0.3359.181 26 26
+chrome78.0.3904.70 6 1
+chrome40.0.2214.115 4 1
+msie7.0 11 10
+chrome26.0.1410.65 1 1
+firefox54.0 1 1
+msie6.0 1 1
+chrome40.0.2214.93 1 1
+chrome80.0.3987.163 2 2
+mozilla 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Installatron_Plugin/9.1.50 20200403173303
+Mozilla/5.0_AppleWebKit/536.30.1_(KHTML,_like_Gecko)_Version/6.0.5_Safari/536.30.1_Installatron_(Mimicking_WebKit) 20200403173311
+Go-http-client/1.1 20200427203148
+http://www.certifywebsite.win 20200429113406
+http://weblibrary.win 20200429070853
+python-requests/2.23.0 20200421214234
+python-requests/2.19.1 20200429135535
+http://zonefiles.bid 20200429121028
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+http://zonefiles.bid 20200429121028
+python-requests/2.23.0 20200421214234
+python-requests/2.19.1 20200429135535
+http://weblibrary.win 20200429070853
+Installatron_Plugin/9.1.50 20200403173303
+http://www.certifywebsite.win 20200429113406
+Go-http-client/1.1 20200427203148
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 89 94
+From1 0 0
+From2 1 1
+From3 4 4
+From4 1340 1608
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yahoo_catchall 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://weblibrary.win 1 1
+http://zonefiles.bid 1 1
+https://www.virus-schutzmasken.de 1 1
+http://www.certifywebsite.win 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+303 122 77960
+302 10 4024
+206 2 242277
+500 2 0
+404 27 218280
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 12
+/ads.txt 4 -
+/node/4 3 -
+/index.php/node/5 2 -
+/humans.txt 3 -
+/index.php/node/6 3 -
+/node/3 1 -
+/node/2 4 -
+/node/6 1 -
+/index.php/node/2 3 -
+/node/5 1 -
+/diasnaturales 1 http://rebeccaelisefoote.com/slavetrees
+/material 1 http://rebeccaelisefoote.com/admin/content
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 65
+99.106.116.129 1337 1595 84965027 20200430135402
+69.160.160.50 13 18 4499323 20200415140502
+38.111.144.136 10 11 127594 20200410225818
+138.68.243.154 9 9 32970 20200403173303
+23.108.48.17 3 3 38595 20200407113803
+23.105.159.11 3 3 38595 20200406032507
+168.81.92.43 2 2 29047 20200417115224
+107.174.150.172 1 1 13275 20200417190006
+3.127.255.28 1 1 11549 20200429121028
+34.223.252.180 1 1 11771 20200405003717
+54.191.173.194 1 1 13275 20200424011749
+212.115.51.250 1 1 13275 20200423005702
+54.200.126.189 1 1 11771 20200402030507
+207.180.210.30 1 4 60789 20200429053150
+54.218.76.209 1 1 13275 20200415143217
+34.209.38.67 1 1 13275 20200425011634
+54.201.209.214 1 1 13275 20200417235902
+54.245.164.162 1 1 13275 20200420013909
+54.218.96.237 1 1 11771 20200403032500
+139.180.1.59 1 1 13275 20200416224100
+216.19.195.119 1 1 13275 20200416205345
+54.190.227.251 1 1 13275 20200414221854
+34.210.118.134 1 1 13275 20200408031217
+34.213.45.70 1 1 13275 20200426011533
+47.74.86.63 1 1 11771 20200401165942
+121.79.135.146 1 1 0 20200425033411
+34.216.214.235 1 1 13275 20200416183853
+192.71.103.173 1 1 13275 20200415234547
+35.224.105.25 1 1 13275 20200421214234
+34.209.176.68 1 1 11771 20200407030836
+54.190.94.215 1 1 13275 20200411023030
+192.36.248.249 1 1 13275 20200427203148
+54.191.229.110 1 1 11771 20200401025546
+35.167.200.252 1 1 13275 20200412031603
+34.212.181.191 1 1 13275 20200421011427
+54.69.145.39 1 1 13275 20200427012029
+5.252.69.21 1 1 13287 20200426122539
+116.233.116.201 1 1 11507 20200429135535
+54.191.223.40 1 1 13275 20200426012428
+52.33.67.210 1 1 13275 20200417122454
+52.29.76.184 1 1 13287 20200421172601
+52.25.191.109 1 1 13275 20200427011057
+192.227.210.237 1 1 13275 20200418213647
+192.71.2.171 1 1 11771 20200401005933
+34.214.253.83 1 1 13275 20200425203642
+34.222.253.132 1 1 11771 20200405023956
+173.252.127.47 0 1 1594 
+38.18.37.122 1 1 13275 20200420100229
+18.184.10.234 1 1 11559 20200429113406
+3.125.116.44 1 1 11550 20200429070853
+34.209.217.184 1 1 13275 20200413030532
+185.13.99.111 1 1 11771 20200405072703
+95.217.177.196 1 1 13275 20200425135827
+34.211.48.164 1 1 11771 20200404024237
+51.89.201.8 1 1 13290 20200422101137
+64.246.161.190 1 1 11783 20200402222729
+18.237.145.206 1 1 11771 20200406024500
+216.145.5.42 1 1 13287 20200428055724
+34.216.41.254 1 1 13275 20200428012126
+54.202.33.81 1 1 13275 20200409024755
+54.245.148.74 1 1 13275 20200419012548
+69.162.68.206 1 6 4352058 20200403173311
+34.217.28.98 1 1 13275 20200410020917
+138.197.144.119 1 1 0 20200404073308
+206.223.248.102 1 1 11771 20200401151024
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20200401 4 4 47084 4
+20200402 2 2 23554 2
+20200403 11 16 4396799 3
+20200404 2 2 11771 2
+20200405 3 3 35313 3
+20200406 4 4 50366 2
+20200407 4 4 50366 2
+20200408 1 1 13275 1
+20200409 1 1 16463 1
+20200410 11 12 140869 2
+20200411 1 1 13275 1
+20200412 1 1 13275 1
+20200413 1 1 13275 1
+20200414 1 1 13275 1
+20200415 15 20 4525873 3
+20200416 3 3 39825 3
+20200417 5 5 68872 4
+20200418 1 1 13275 1
+20200419 1 1 13275 1
+20200420 2 2 26550 2
+20200421 3 3 39837 3
+20200422 1 1 13290 1
+20200423 1 1 13275 1
+20200424 1 1 13275 1
+20200425 4 4 39825 4
+20200426 3 3 39837 3
+20200427 3 3 39825 3
+20200428 267 429 26869335 4
+20200429 1076 1175 58206059 8
+20200430 1 1 23149 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30s-2mn 1
+30mn-1h 2
+1h+ 3
+0s-30s 63
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 151
+/quickedit/attachments 233 197130 0 0
+/ 89 1352624 65 62
+/contextual/render 87 37656 0 0
+/admin/content 56 2993643 0 1
+/quickedit/metadata 49 8885 0 0
+/admin/structure 44 661100 2 0
+/history/7/read 43 430 0 1
+/editor/dialog/link/basic_html 33 75615 0 0
+/admin/structure/types 29 498597 0 0
+/history/15/read 27 270 0 2
+/slavetrees 24 555750 0 1
+/ecology 21 444583 0 0
+/history/8/read 21 210 0 0
+/history/10/read 20 200 0 0
+/home 19 456043 0 0
+/node/7/edit 18 925086 0 0
+/admin/structure/types/manage/spiral/fields 17 330947 0 0
+/node/add/spiral 16 578030 0 0
+/admin/structure/types/manage/page/display 16 537901 0 0
+/admin/structure/types/manage/spiral/display 16 539439 0 0
+/history/18/read 15 150 0 0
+/node/18 15 333729 0 0
+/history 15 321345 0 0
+/history/19/read 14 140 0 0
+/history/12/read 13 130 0 1
+/contact 4 53358 1 0
+/admin/structure/types/manage/spiral 1 36053 0 0
+/admin/structure/types/manage/page/fields/node.page.field_image 1 31297 0 0
+/foretelling 9 207357 0 0
+/history/14/read 3 30 0 0
+/history/11/read 2 20 0 0
+/admin/structure/types/manage/page/fields/node.page.field_body2/storage 2 43193 0 0
+/admin/structure/block 1 77259 0 0
+/node/8/edit 6 265731 0 0
+/admin/structure/types/manage/spiral/fields/node.spiral.field_image/storage 1 23857 0 0
+/admin/structure/menu/item/13/edit 1 27559 0 0
+/admin/structure/types/manage/page/fields/node.page.field_body_2/storage 1 20393 0 0
+/admin/structure/menu/parents 2 1676 0 0
+/node/add 12 170124 0 0
+/node/20/edit 4 180626 0 0
+/history/16/read 11 110 0 0
+/admin/structure/types/manage/spiral/fields/node.spiral.field_video/delete 1 16728 0 0
+/admin/structure/types/manage/spiral/fields/node.spiral.field_ecology/storage 1 22753 0 0
+/history/20/read 12 120 0 0
+/node/17 1 22878 0 0
+/admin/structure/types/manage/page/fields/add-field 4 78703 0 0
+/admin/structure/types/manage/page/fields/node.page.field_image/storage 1 23809 0 0
+/admin/structure/types/manage/spiral/fields/node.spiral.field_video 2 44671 0 0
+/history/22/read 6 60 0 0
+/node/23/edit 1 45440 0 0
+/admin/structure/types/manage/page/fields/node.page.field_body2/delete 1 16702 0 0
+/admin/structure/types/manage/page/fields/node.page.field_body 1 29073 0 0
+/node/18/edit 6 315193 0 0
+/admin/structure/types/manage/spiral/fields/node.spiral.body 1 36919 0 0
+/admin/appearance 1 22966 0 0
+/entity_reference_autocomplete/node/default%3Anode/TMr6LLNuCOz34pIAzHFuERoxaakjsnef5xdtMWpZN-o 1 2 0 0
+/admin/modules 8 1619792 0 0
+/admin/config/media/image-styles/manage/elongated 5 106945 0 0
+/shelter 6 133642 0 0
+/admin/structure/types/manage/page/fields/node.page.field_body_2/delete 1 16708 0 0
+/precarity 8 171525 0 0
+/admin/structure/types/manage/page/fields/node.page.field_body2 5 148900 0 0
+/admin/config/media/image-styles/manage/elongated/add/image_scale_and_crop 1 22043 0 0
+/admin/structure/types/manage/spiral/form-display 9 506982 0 0
+/history/25/read 4 40 0 0
+/node/17/edit 1 49955 0 0
+/node/20 1 23209 0 0
+/admin/structure/types/manage/page/fields/node.page.field_body/storage 2 38646 0 0
+/admin/structure/types/manage/page/form-display 6 314722 0 0
+/admin/structure/types/add 1 34393 0 0
+/node/10/edit 3 156797 0 0
+/admin/config/media/image-styles/manage/extra_medium 2 45115 0 0
+/deleteme.chayzzxs.php 1 2495 0 0
+/artists 12 233173 0 0
+/user/1 2 45888 0 0
+/history/1/read 2 20 0 0
+/admin/structure/menu/manage/main 7 439141 0 0
+/node/9/edit 2 90817 0 0
+/update.php/selection 1 2452 0 0
+/admin/structure/types/manage/spiral/fields/node.spiral.field_created_by/delete 1 16780 0 0
+/user/password 1 11592 0 0
+/node/7 1 13287 0 0
+/node/7/delete 1 16135 0 0
+/admin/config/media/image-styles/manage/elongated/delete 1 16510 0 0
+/history/9/read 10 100 0 0
+/admin/structure/types/manage/spiral/fields/node.spiral.field_video/storage 2 44307 0 0
+/admin/structure/menu/item/10/delete 1 15546 0 0
+/admin/config/media/image-styles 6 102866 0 0
+/history/26/read 3 30 0 0
+/user/login 3 36801 0 1
+/admin/config/media/image-styles/manage/extra_medium/add/image_scale_and_crop 1 22064 0 0
+/node/25 4 86103 0 0
+/abandonment 3 70560 0 0
+/groundscapesdisplaced 5 109257 0 0
+/node/11/delete 1 16319 0 0
+/admin/structure/taxonomy 4 72148 0 0
+/update.php/results 2 5912 0 0
+/entity_reference_autocomplete/node/default%3Anode/j5hd3DHQIBEdyNvyv_nR7xacxaQKzrLgBNuTGom1cWw 3 6 0 0
+/admin/structure/types/manage/page/fields/node.page.field_body_2 1 38140 0 0
+/deafening 10 227184 0 0
+/admin/structure/types/manage/spiral/fields/node.spiral.field_image 3 94035 0 0
+/admin/structure/types/manage/spiral/fields/node.spiral.field_created_by 2 47520 0 0
+/admin/structure/menu/item/11/delete 1 15560 0 0
+/node/16 11 244335 0 0
+/admin/structure/types/manage/page/fields 11 208056 0 0
+/admin/config/media/image-styles/add 2 32828 0 0
+/node/22/edit 1 58535 0 0
+/search/node 2 57137 0 0
+/admin/structure/taxonomy/manage/ecology/add 2 54520 0 0
+/node/24/edit 1 45608 0 0
+/history/21/read 10 100 0 0
+/admin/structure/menu 11 192613 0 0
+/node/21/edit 7 293071 0 0
+/admin/structure/taxonomy/add 3 49791 0 0
+/editor/dialog/image/basic_html 12 82672 0 0
+/history/24/read 5 50 0 0
+/node/15/edit 9 521318 0 0
+/history/17/read 6 60 0 0
+/admin/config 9 175320 0 0
+/node/19/edit 5 242621 0 0
+/admin/structure/types/manage/spiral/fields/node.spiral.field_created_by/storage 1 22824 0 0
+/admin/content/files 2 69519 0 0
+/node/15 4 97835 0 0
+/node/19 4 93108 0 0
+/material 4 63867 0 0
+/admin/config/media 1 14312 0 0
+/admin/structure/menu/link/standard.front_page/edit 1 23614 0 0
+/node/preview/f08901e3-616a-42b5-a739-6c4b3a7f9ec5/full 3 79373 0 0
+/update.php/start 2 4476 0 0
+/admin/config/development/performance 4 74341 0 0
+/node/16/edit 5 256841 0 0
+/update.php 1 3369 0 0
+/admin/config/media/image-styles/manage/large 2 46581 0 0
+/machine_name/transliterate 9 91 0 0
+/node/24 5 107988 0 0
+/chronology 12 271247 0 0
+/node/26 3 63860 0 0
+/node/12/edit 4 256777 0 0
+/admin/modules/list/confirm-experimental 1 15986 0 0
+/history/23/read 7 70 0 0
+/admin/structure/menu/manage/footer 2 85773 0 0
+/about 3 52651 0 0
+/node/25/edit 1 45414 0 0
+/admin/structure/types/manage/spiral/fields/add-field 6 121734 0 0
+/innovations 7 148278 0 0
+/participate 5 88932 0 0
+/admin/content/comment 1 20576 0 0
+/deleteme.chaljjku.php 1 2495 1 0
+/admin/structure/taxonomy/manage/ecology/overview 2 37119 0 0
+/cone 11 250799 0 0
+/admin/structure/types/manage/spiral/fields/node.spiral.field_ecology 2 42132 0 0
+END_SIDER
