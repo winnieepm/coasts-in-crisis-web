@@ -1,0 +1,27 @@
+version: '3.1'
+
+services:
+
+  drupal:
+    image: drupal:9-apache
+    ports:
+      - 8080:80
+    volumes:
+      - /var/www/html/modules
+      - /var/www/html/profiles
+      - ./themes:/var/www/html/themes
+      - ./sites:/var/www/html/sites
+    restart: always
+
+  mysql:
+    #network name
+      image: mysql:latest
+      volumes:
+        - ./mysql-database:/var/lib/mysql
+      #this is to keep folders outside the containter
+      environment:
+        MYSQL_DATABASE: dbase
+        MYSQL_USER: dbuser
+        MYSQL_PASSWORD: dbpass
+        MYSQL_ROOT_PASSWORD: rootpass
+      restart: always
