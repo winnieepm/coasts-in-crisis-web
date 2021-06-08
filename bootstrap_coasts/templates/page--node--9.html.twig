@@ -9,7 +9,7 @@
  * Available variables:
  *
  * General utility variables:
- * - base_path: The base URL path of the Drupal installation. Will usually be
+ * - base_  path: The base URL path of the Drupal installation. Will usually be
  *   "/" unless you have installed Drupal in a sub-directory.
  * - is_front: A flag indicating if the current page is the front page.
  * - logged_in: A flag indicating if the user is registered and signed in.
@@ -53,10 +53,6 @@
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 
-{% if node.id == 1 %}
-  {{ attach_library('bootstrap_coasts/front-page') }}
-{% endif %}
-
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
   {% block navbar %}
@@ -72,7 +68,7 @@
         <div class="{{ container }}">
       {% endif %}
 
-      <div class="navbar-header">
+      <div class="navbar">
         {{ page.navigation }}
         {# .btn-navbar is used as the toggle for collapsed navbar content #}
         {% if page.navigation_collapsible %}
