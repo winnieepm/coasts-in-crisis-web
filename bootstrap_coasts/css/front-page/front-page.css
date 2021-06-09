@@ -2,15 +2,25 @@
 
  body {
     background-image: url("../../images/map_grid.png");
-    background-color: #000;
     font-size: large;
     font-weight: 500;
     font-family: Tahoma, sans-serif;
 }
-.navbar-default .navbar-brand {
-color: none;
+.navbar-default {
+   background-color: transparent;
+   border: none;
 }
 a.navbar-brand {
+   background-color: transparent;
    text-align: center;
-   color: black;
+
+}
+
+h1.page-header {
+   border-bottom: none;
+   text-align: center;
+}
+
+section.col-sm-9 {
+   
 }
