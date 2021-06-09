@@ -7,7 +7,10 @@
     font-weight: 500;
     font-family: Tahoma, sans-serif;
 }
-
+.navbar-default .navbar-brand {
+color: none;
+}
 a.navbar-brand {
    text-align: center;
+   color: black;
 }
