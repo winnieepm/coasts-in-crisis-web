@@ -6,21 +6,22 @@
     font-weight: 500;
     font-family: Tahoma, sans-serif;
 }
-.navbar-default {
+
+header.navbar-default {
    background-color: transparent;
    border: none;
+   color:teal;
+   font-size: large;
 }
+
 a.navbar-brand {
    background-color: transparent;
    text-align: center;
-
+   /* color:teal;
+   font-size: large; */
 }
 
 h1.page-header {
    border-bottom: none;
    text-align: center;
-}
-
-section.col-sm-9 {
-   
 }
