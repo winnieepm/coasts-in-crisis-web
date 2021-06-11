@@ -7,18 +7,20 @@
     font-family: Tahoma, sans-serif;
 }
 
+.navbar-brand,
+.navbar-nav > li > a  {
+   color: teal;
+}
+
 header.navbar-default {
    background-color: transparent;
    border: none;
-   color:teal;
-   font-size: large;
 }
 
 a.navbar-brand {
    background-color: transparent;
    text-align: center;
-   /* color:teal;
-   font-size: large; */
+   font-size: large;
 }
 
 h1.page-header {
