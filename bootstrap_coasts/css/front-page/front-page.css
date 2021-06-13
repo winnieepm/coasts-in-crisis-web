@@ -7,6 +7,10 @@
     font-family: Tahoma, sans-serif;
 }
 
+.is-unpublished {
+background-color: #fff4f4;
+}
+
 .navbar-brand,
 .navbar-nav > li > a  {
    color: teal;
