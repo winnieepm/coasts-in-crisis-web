@@ -41,4 +41,6 @@ a.navbar-brand {
 h1.page-header {
    border-bottom: none;
    text-align: center;
+   font-size: 30px;
+   color: teal;
 }
