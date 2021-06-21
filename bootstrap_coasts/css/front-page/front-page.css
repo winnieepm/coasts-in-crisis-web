@@ -5,19 +5,40 @@
     font-size: large;
     font-weight: 500;
     font-family: Tahoma, sans-serif;
+   
 }
 
- article[data-quickedit-entity-instance-id="0"] {
-   background-color: #b8e8f3;
-   padding-left: 10px;
-   padding-right: 10px;
-   padding-top: 10px;
-   padding-bottom: 10px;
+
+.page-header {
+   border-bottom: none;
+   text-align: center;
+   font-size: 30px;
+   font-family: Tahoma, sans-serif;
+   color: teal;
+}
+
+article[data-quickedit-entity-instance-id="0"] {
+   background-color: #ddd;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   /*border-style: solid;*/
+   /*border-color: #808080;*/
+   border-radius: 25px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
 }
 
 .navbar-brand,
 .navbar-nav > li > a  {
    color: teal;
+   font-family: Tahoma, sans-serif;
 }
 
 header.navbar-default {
@@ -38,9 +59,13 @@ a.navbar-brand {
    font-size: large;
 }
 
-h1.page-header {
-   border-bottom: none;
-   text-align: center;
-   font-size: 30px;
-   color: teal;
+.rotate {
+    animation: rotation 8s infinite linear;
 }
+
+img[src="/sites/default/files/inline-images/carib-islands-and-pathways.png"] {
+ /*class="rotate"*/
+ height: auto;
+ width: 1140px;
+}
+
