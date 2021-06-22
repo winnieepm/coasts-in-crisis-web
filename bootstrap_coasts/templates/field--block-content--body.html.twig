@@ -38,6 +38,9 @@
  * @see template_preprocess_field()
  */
 #}
+
+{{ dump(items) }}
+
 {%
   set classes = [
     'field',
@@ -53,9 +56,6 @@
   ]
 %}
 
-{% set image_pathways %}
-  <img data-entity-uuid="815270f7-79d6-4393-8651-8b9d901577ae" src="/sites/default/files/inline-images/carib-islands-and-pathways.png"/>
-{% endset %}
 
 
 {% if label_hidden %}
@@ -86,15 +86,10 @@
   </div>
 {% endif %}
 
-{# targeting image to create pathway overlay div #}
-{% for item in items %}
-  {% if not image_pathways in item %}
-    <p>
-      not heeere
-    </p> 
-  {% endif %}
+{# targeting image to create pathway overlay div 
+{% for item.content in items %}
+  <div class="overlay">
+    {{ item.content }}
+  </div>
+{% endfor %} #}
 
-  {% if image_pathways in item %}
-      <div class="overlay">{{ image-paths }}</div>
-  {% endif %}
-{% endfor %}
