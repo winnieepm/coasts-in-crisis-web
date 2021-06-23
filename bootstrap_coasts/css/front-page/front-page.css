@@ -59,12 +59,7 @@ a.navbar-brand {
    font-size: large;
 }
 
-.rotate {
-    animation: rotation 8s infinite linear;
-}
-
 img[src="/sites/default/files/inline-images/carib-islands-and-pathways.png"] {
- /*class="rotate"*/
  height: auto;
  width: 1140px;
 }
