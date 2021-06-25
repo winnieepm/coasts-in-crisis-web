@@ -3,6 +3,7 @@ framework:
     theme:
       css/style.css: {}
       css/front-page/front-page.css: {}
+      css/pathway-front/pathway-front.css: {}
 
 # Uncomment for LESS source JavaScript files.
 #  js:
