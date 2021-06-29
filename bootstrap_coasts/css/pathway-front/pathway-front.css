@@ -1,12 +1,3 @@
-.rotate {
-    animation: rotation 8s infinite linear;
-  }
-  
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
+article[data-quickedit-entity-instance-id="0"] {
+  background-color: transparent;
+}
