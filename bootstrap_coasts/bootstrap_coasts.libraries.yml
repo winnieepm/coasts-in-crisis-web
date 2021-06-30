@@ -3,7 +3,7 @@ framework:
     theme:
       css/style.css: {}
       css/front-page/front-page.css: {}
-      css/pathway-front/pathway-front.css: {}
+      css/entangled-ecologies-front/entangled-ecologies-front.css: {}
 
 # Uncomment for LESS source JavaScript files.
 #  js:
