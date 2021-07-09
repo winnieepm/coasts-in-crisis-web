@@ -39,7 +39,7 @@
  */
 #}
 
-{{ dump(items) }}
+{# {{ items[0]["content"]["#text"]|raw }} #}
 
 {%
   set classes = [
@@ -86,10 +86,8 @@
   </div>
 {% endif %}
 
-{# targeting image to create pathway overlay div
-{% for item#text in items %}
+
   <div class="overlay">
-    {{ item.content }}
   </div>
-{% endfor %}  #}
+
 
