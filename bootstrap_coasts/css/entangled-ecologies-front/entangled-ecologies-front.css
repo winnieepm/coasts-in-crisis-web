@@ -1,11 +1,16 @@
 img[src="/sites/default/files/inline-images/Regrowth%20II_DavidBerg_0.jpg"]{
-  vertical-align: middle;
+  border-radius: 50px;
   float: right;
-  border: 0px;
-  border-radius: 30px;
-  padding: 20px;
+  padding: 10px;
+}
+
+figcaption {
+  float: right;
+  width: 715px;
+  text-align: center;
 }
 
 .dialog-off-canvas-main-canvas .content > div > div:nth-child(7) > p > a {
   color: green;
+  padding-top: 150px;
 }
