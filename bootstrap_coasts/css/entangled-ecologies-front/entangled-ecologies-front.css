@@ -11,6 +11,25 @@ figcaption {
 }
 
 .dialog-off-canvas-main-canvas .content > div > div:nth-child(7) > p > a {
-  color: green;
-  padding-top: 150px;
+  background-color: teal;
+  border-style: solid;
+  color: #e7e7e7;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  float: left;
+  border-radius: 50px;
+}
+
+.dialog-off-canvas-main-canvas .content > div > div:nth-child(8) > p > a {
+  color: #e7e7e7;
+  font-size: 20px;
+  background-color: teal;
+  border-style: solid;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  border-radius: 50px;
 }
