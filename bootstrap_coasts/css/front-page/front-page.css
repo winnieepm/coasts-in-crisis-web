@@ -15,10 +15,11 @@
    font-size: 30px;
    font-family: Tahoma, sans-serif;
    color: teal;
+   padding-top: 40px;
 }
 
 article[data-quickedit-entity-instance-id="0"] {
-   background-color: #ddd;
+   /*background-color: #ddd;*/
    padding-left: 50px;
    padding-right: 50px;
    padding-top: 50px;
@@ -36,31 +37,113 @@ article[data-quickedit-entity-instance-id="0"] {
 }
 
 .navbar-brand,
-.navbar-nav > li > a  {
+.navbar-nav > li > a {
    color: teal;
    font-family: Tahoma, sans-serif;
 }
 
-header.navbar-default {
+header.navbar-default .navbar-brand {
    background-color: transparent;
    border: none;
+   color: teal;
 }
 
 a.navbar-brand {
    background-color: transparent;
-   text-align: center;
    font-size: 50px; /* thinking of responsive design, I wonder if we should use relative units like rem or em? */
+   text-align: center;
 }
 
-.navbar-nav>li>a {
+.navbar-default .navbar-nav>li>a {
    padding-top: 10px;
    padding-bottom: 10px;
    line-height: 20px;
    font-size: large;
+   color: teal;
 }
 
 img[src="/sites/default/files/inline-images/carib-islands-and-pathways.png"] {
  height: auto;
  width: 1140px;
+ display: block;
 }
 
+
+/* archipelago nav */
+.overlay-container {
+    position: relative;
+    top: 10%;
+    width: 1140px;
+    z-index: 5;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: .3s ease;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.overlay-container:hover .overlay {
+    opacity: 1;
+}
+
+
+.img-size {
+    height: auto;
+    width: 1140px;
+    position: relative;
+    z-index: 5;
+}
+
+
+.creative-res, .predictable-preca {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* pathway link styling*/
+.creative-res a {
+    position: relative;
+    top: 25%;
+    z-index: 999;
+}
+
+.creative-res img {
+    right: 8em;
+    bottom: 1.5em;
+}
+
+.entangled-eco a {
+    float: right;
+    position: relative;
+    bottom: -12%;
+    z-index: 999;
+}
+
+.entangled-eco img {
+    top: 2em;
+    right: 2em;
+}
+
+.predictable-preca a {
+    float: right;
+    position: relative;
+    top: 46%;
+    right: 18%;
+    z-index: 999;
+}
+
+.predictable-preca img {
+    bottom: 3em;
+    right: 2em;
+}
+/* END of archipelago nav */
