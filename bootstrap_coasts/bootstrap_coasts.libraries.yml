@@ -2,8 +2,11 @@ framework:
   css:
     theme:
       css/style.css: {}
-      css/front-page/front-page.css: {}
+      css/creative-resistance-front/creative-resistance-front.css: {}
       css/entangled-ecologies-front/entangled-ecologies-front.css: {}
+      css/front-page/front-page.css: {}
+      css/predictable-precarity-front/predictable-precarity-front.css: {}
+      
 
 # Uncomment for LESS source JavaScript files.
 #  js:
