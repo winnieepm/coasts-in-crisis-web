@@ -6,38 +6,31 @@
     overflow: visible;
 }
 
-img[src="/sites/default/files/inline-images/Regrowth%20II_DavidBerg_0.jpg"]{
-  border-radius: 50px;
-  float: right;
-  padding: 10px;
-}
-
-figcaption {
+img[src="/sites/default/files/inline-images/Regrowth%20I_DavidBerg_0.jpg"] {
     float: right;
-    width: 715px;
-    text-align: center;
+    border-radius: 20px;
 }
 
-.dialog-off-canvas-main-canvas .content > div > div:nth-child(7) > p > a {
+.dialog-off-canvas-main-canvas .content > div > div:nth-child(7) > p:nth-child(5) > a:nth-child(1){
     background-color: teal;
     border-style: solid;
     color: #e7e7e7;
     padding: 10px 21px;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     float: left;
     border-radius: 50px;
 }
 
-.dialog-off-canvas-main-canvas .content > div > div:nth-child(8) > p > a {
-    color: #e7e7e7;
-    font-size: 20px;
+.dialog-off-canvas-main-canvas .content > div > div:nth-child(7) > p:nth-child(5) > a:nth-child(2) {
     background-color: teal;
     border-style: solid;
+    color: #e7e7e7;
     padding: 10px 21px;
     text-align: center;
     text-decoration: none;
+    font-size: 15px;
     float: right;
     border-radius: 50px;
 }
