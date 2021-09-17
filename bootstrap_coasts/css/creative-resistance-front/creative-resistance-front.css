@@ -1,1 +1,20 @@
 /* This is stylesheet affects the Creative Resistance front page. */
+
+.bkg-cr {
+    background: url(/themes/bootstrap_coasts/images/cr-irma-bkg.png) center no-repeat;
+    background-size: 1140px auto;
+    z-index: 999;
+}
+
+
+figure {
+    display: inline !important;
+}
+
+figure img {
+    border-radius: 20px;
+}
+
+figure figcaption {
+    text-align: center;
+}

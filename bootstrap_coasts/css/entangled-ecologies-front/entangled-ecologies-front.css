@@ -6,17 +6,6 @@
     overflow: visible;
 }
 
-img[src="/sites/default/files/inline-images/Regrowth%20I_DavidBerg_0.jpg"] {
-    float: right;
-    border-radius: 20px;
-}
-
-.dialog-off-canvas-main-canvas .content > div > div:nth-child(2) > figure > figcaption {
-    float: right;
-    width: 537px;
-    text-align: center;
-}
-
 .dialog-off-canvas-main-canvas .content > div > div:nth-child(7) > p:nth-child(5) > a:nth-child(1){
     background-color: teal;
     border-style: solid;
@@ -39,4 +28,8 @@ img[src="/sites/default/files/inline-images/Regrowth%20I_DavidBerg_0.jpg"] {
     font-size: 15px;
     float: right;
     border-radius: 50px;
+}
+
+.dialog-off-canvas-main-canvas .content > div > div:nth-child(7) > p:nth-child(5) {
+    clear: both;
 }
