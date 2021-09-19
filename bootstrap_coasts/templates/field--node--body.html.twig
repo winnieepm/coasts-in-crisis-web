@@ -81,13 +81,21 @@
   </div>
 {% endif %}
 
-{# add attribute to artist bios 
+{# add name attribute to artist bios for position-specific hyperlinking
   
+  TARGET LOCATION
   {{ dump(items[2]["content"]["#text"]) }} 
 
-  
-
+  DOESNT WORK
   {% for '<a href="https://www.blackwoodimaging.com">David Berg</a>' in items[2]["content"]["#text"] %}
       str_replace('href="https://www.blackwoodimaging.com"', 'name="dberg"', '<a href="https://www.blackwoodimaging.com">David Berg</a>');
   {% endfor %}      
-#}    
+  
+  WORKS (INCOMPLETE)
+  items[2]["content"]["#text"]|replace({'<a href="https://www.blackwoodimaging.com">' : '<a name="dberg">'})
+
+  {% for item in items %}
+    {% items[2]["content"]["#text"]|replace({'<a href="https://www.blackwoodimaging.com">' : '<a name="dberg">'}) %}
+{% endfor %}
+#}   
+
