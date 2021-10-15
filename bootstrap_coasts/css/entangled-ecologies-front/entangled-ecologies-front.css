@@ -6,6 +6,10 @@
     overflow: visible;
 }
 
+.link {
+    color: red;
+}
+
 .dialog-off-canvas-main-canvas .content > div > div:nth-child(7) > p:nth-child(5) > a:nth-child(1){
     background-color: teal;
     border-style: solid;
