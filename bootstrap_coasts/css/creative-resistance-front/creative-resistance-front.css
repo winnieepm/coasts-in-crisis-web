@@ -13,6 +13,7 @@ figure {
 
 figure img {
     border-radius: 20px;
+    padding: 10px;
 }
 
 figure figcaption {
