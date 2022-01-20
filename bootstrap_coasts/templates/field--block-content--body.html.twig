@@ -54,8 +54,6 @@
   ]
 %}
 
-
-
 {% if label_hidden %}
   {% if multiple %}
     <div{{ attributes.addClass(classes, 'field--items') }}>
@@ -67,24 +65,8 @@
   
     {% for item in items %}
       <div{{ attributes.addClass(classes, 'field--item') }}>
-        <div class="overlay-container">
+        <div class="overlay-container">     
           {{ item.content }} 
-          <div class="overlay">
-            <div class="entangled-eco">
-              <a href="http://coastsincrisis.net/entangledecologies">Entangled Ecologies</a>
-              <img src="/themes/bootstrap_coasts/images/home/hover-maria.png" alt="Hurricane Maria path" class="img-fluid img-size">
-            </div>
-
-            <div class="predictable-preca">
-              <a href="http://coastsincrisis.net/predictableprecarity">Predictable Precarity</a>
-              <img src="/themes/bootstrap_coasts/images/home/hover-jose.png" alt="Hurricane Jose path" class="img-fluid img-size">
-            </div>
-
-            <div class="creative-res">
-              <a href="http://coastsincrisis.net/creativeresistance">Creative Resistance</a>
-              <img src="/themes/bootstrap_coasts/images/home/hover-irma.png" alt="Hurricane Irma path" class="img-fluid img-size">
-            </div>
-          </div>  
         </div>
       </div>
     {% endfor %}
@@ -105,12 +87,5 @@
     {% endif %}
   </div>
 {% endif %}
-
-
-  {# <div class="archipelago">
-    <img src="/sites/default/files/inline-images/carib-islands-and-pathways.png"/>
-    <div class="overlay"></div>
-  </div> #}
-{# {{ items[0]["content"]["#text"]|raw }} #}
 
 
