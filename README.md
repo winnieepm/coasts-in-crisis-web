@@ -29,6 +29,7 @@ Example:
 
 * For files with unknown exact date, only enter available information and do not approximate unknown details. 
 
+<br></br>
 
 Directory (folder) with known year but no exact date:
 
