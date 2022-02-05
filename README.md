@@ -21,7 +21,7 @@ yyyy-mm-dd_a few keywords.extension
 ```
 Example:
 ```HTML
-2021-11-12_launch poster.pdf
+2021-11-12_launch event poster.pdf
 ```
 * Root-level directories do not require date, and should be named with a few keywords. See metadata/ or styling/. Note that 01_documentation and 02_backups were assigned numbers in their name to guarantee that they will remain the first two directories in the repository.
 
@@ -34,7 +34,7 @@ Example:
 Directory (folder) with known year but no exact date:
 
 ```HTML
-2021_launch documents
+2021_launch event documents
 ```
 
 
