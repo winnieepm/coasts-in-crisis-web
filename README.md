@@ -1,7 +1,7 @@
 
 # Coasts In Crisis
 
-Coasts in Crisis <!-- insert link to site --> is a digital exhibit that showcases and grapples with the Caribbean artwork created during or in response to the Hurricane Season of 2017.
+Coasts in Crisis <!-- insert link to site --> is a digital exhibit that showcases and grapples with Caribbean artwork created during or in response to the Hurricane Season of 2017.
 
 ## Featured Artists
 
