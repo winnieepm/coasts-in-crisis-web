@@ -1,0 +1,37 @@
+/* This stylesheet affects the Predictable Precarity front page. */
+
+.boardingpass {
+    width: 45em;
+    height: auto;
+    border-radius: 20px;
+}
+
+.bkg-pp {
+    background: url("pp-jose-bkg.png") center no-repeat;
+    background-size: 1140px auto;
+    z-index: 999;
+    overflow: visible;
+}
+
+.curator-msg {
+    background-color: rgb(217, 217, 217);
+    background-color: rgba(217, 217, 217, 0.7);
+    border: 1em solid rgb(217, 217, 217);
+    border: 1em solid rgba(217, 217, 217, 0);
+}
+
+.exhibit-text {
+    font-family: courier, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.pp-hurricane {
+    bottom: 27.5em;
+    margin: 1em;
+}
+
+.text-right {
+    float: right;
+    width: 25em;
+}

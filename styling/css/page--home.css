@@ -1,0 +1,41 @@
+a.navbar-brand {
+    background-color: transparent;
+    font-size: 50px; /* thinking of responsive design, I wonder if we should use relative units like rem or em? */
+    text-align: center;
+ }
+
+header.navbar-default .navbar-brand {
+    background-color: transparent;
+    border: none;
+    color: teal;
+ } 
+ 
+ .navbar {
+     position: relative;
+     min-height: 50px;
+     margin-bottom: 0px;
+     border: 1px solid transparent;
+ }
+ 
+ .navbar-brand,
+ .navbar-nav > li > a {
+    color: teal;
+    font-family: Tahoma, sans-serif;
+ }
+ 
+ .navbar-default .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-size: large;
+    color: teal;
+ }
+ 
+ .page-header {
+   border-bottom: none;
+   text-align: center;
+   font-size: 30px;
+   font-family: Tahoma, sans-serif;
+   color: teal;
+   padding-top: 40px;
+}

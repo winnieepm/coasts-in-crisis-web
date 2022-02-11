@@ -1,0 +1,43 @@
+/* These styles should be applied or made available to all pages */
+
+body {
+    background-image: url("map_grid.png");
+    font-size: large;
+    font-weight: 500;
+    font-family: Geneva, sans-serif;
+   
+}
+
+
+h2 {
+    color: teal;
+}
+
+p > a {
+    background-color: #d9d9d9;
+    color: #454545;
+    padding-left: .5em;
+    padding-right: .5em;
+    text-decoration: none;
+}
+
+p > a:hover {
+    background-color: teal;
+    color: #D9D9D9;
+    text-decoration: none;
+}
+
+.button-left:hover,.button-right:hover {
+    background-color: #a0a0a0;
+    color: #e7e7e7;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.sponsors {
+    height: auto;
+    width: 750px;
+}

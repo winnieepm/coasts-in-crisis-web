@@ -1,0 +1,18 @@
+/* PEOPLE STYLES*/
+
+.artist-portrait {
+    border-radius: 1em;
+    height: 15em;
+     width: auto; 
+ }
+ 
+ .people-p {
+     text-align: justify;
+     width: 36em;
+ }
+ 
+ .team-portrait {
+     border-radius: 1em;
+     height:14em;
+     width: auto;
+ }
